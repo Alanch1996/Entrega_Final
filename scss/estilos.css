@@ -179,6 +179,11 @@ footer .fa-facebook:hover {
     padding-top: 3rem;
   }
 }
+@media (min-width: 768px) {
+  .titulo_ellas {
+    background: none;
+  }
+}
 @media (max-width: 576px) {
   .bindex {
     background: lightblue;
@@ -199,10 +204,5 @@ footer .fa-facebook:hover {
   }
   .titulo_niños {
     background: white;
-  }
-}
-@media (min-width: 768px) {
-  .titulo_ellas {
-    background: none;
   }
 }/*# sourceMappingURL=estilos.css.map */
