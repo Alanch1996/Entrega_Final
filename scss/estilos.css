@@ -23,7 +23,6 @@
 .bindex {
   background-image: url("../imagenes/fondo de mi proyecto.webp");
   background-size: cover;
-  overflow: auto;
 }
 
 .titulo_bienvenida, .bmenu article .parrafo, .bmenu article .titulo {
@@ -44,7 +43,6 @@
   background-image: url("../imagenes/fondo de mi proyecto.webp");
   background-size: cover;
   height: 100vh;
-  overflow: auto;
 }
 
 .titulo_ellas {
@@ -93,7 +91,6 @@
 .bnosotros {
   background-color: bisque;
   height: 100vh;
-  overflow: auto;
 }
 .bnosotros .texto_historia {
   font-size: 1.3rem;
@@ -112,7 +109,6 @@
 .bmenu {
   height: 100vh;
   background-image: url("../imagenes/fc.png");
-  overflow: auto;
 }
 .bmenu .parrafo:hover {
   background-color: beige;
