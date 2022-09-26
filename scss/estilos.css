@@ -89,6 +89,7 @@
 
 .bnosotros {
   background-color: bisque;
+  width: 100vw;
 }
 .bnosotros .texto_historia {
   font-size: 1.3rem;
@@ -107,6 +108,7 @@
 .bmenu {
   background-image: url("../imagenes/fc.png");
   background-size: cover;
+  width: 100vw;
 }
 .bmenu .parrafo:hover {
   background-color: beige;

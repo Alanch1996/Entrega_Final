@@ -1,7 +1,7 @@
 .bmenu {
     background-image: url("../imagenes/fc.png");
     background-size: cover;
- 
+    width: 100vw;
     article {
         .titulo {
          @extend .titulo_bienvenida ; 
