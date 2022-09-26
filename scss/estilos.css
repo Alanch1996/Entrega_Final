@@ -42,7 +42,6 @@
 .bniñxs {
   background-image: url("../imagenes/fondo de mi proyecto.webp");
   background-size: cover;
-  height: 100vh;
 }
 
 .titulo_ellas {
@@ -107,8 +106,8 @@
 }
 
 .bmenu {
-  height: 100vh;
   background-image: url("../imagenes/fc.png");
+  background-size: cover;
 }
 .bmenu .parrafo:hover {
   background-color: beige;
@@ -137,7 +136,6 @@ footer {
   padding-bottom: 1rem;
   margin-top: 2rem;
   width: 100%;
-  height: auto;
   overflow: auto;
 }
 footer .fa-instagram {
@@ -171,7 +169,7 @@ footer .fa-facebook:hover {
     padding-top: 15px;
   }
   .bmenu {
-    background: lightsalmon;
+    background: lightblue;
   }
   footer {
     padding-top: 3rem;
