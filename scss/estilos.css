@@ -89,7 +89,6 @@
 
 .bnosotros {
   background-color: bisque;
-  height: 100vh;
 }
 .bnosotros .texto_historia {
   font-size: 1.3rem;
@@ -136,7 +135,6 @@ footer {
   padding-bottom: 1rem;
   margin-top: 2rem;
   width: 100%;
-  overflow: auto;
 }
 footer .fa-instagram {
   font-size: 2rem;
