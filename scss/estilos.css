@@ -23,6 +23,7 @@
 .bindex {
   background-image: url("../imagenes/fondo de mi proyecto.webp");
   background-size: cover;
+  width: 100vw;
 }
 
 .titulo_bienvenida, .bmenu article .parrafo, .bmenu article .titulo {
@@ -40,8 +41,9 @@
 }
 
 .bniñxs {
-  background-image: url("../imagenes/fondo de mi proyecto.webp");
-  background-size: cover;
+  background-color: pink;
+  overflow: auto;
+  width: 100wh;
 }
 
 .titulo_ellas {
@@ -89,7 +91,6 @@
 
 .bnosotros {
   background-color: bisque;
-  width: 100vw;
 }
 .bnosotros .texto_historia {
   font-size: 1.3rem;
