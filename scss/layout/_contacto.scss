@@ -2,7 +2,7 @@
     height: 100vh;
     
     background-image: url("../imagenes/fc.png");
-    overflow: hidden;
+    overflow: auto;
     article {
         .titulo {
          @extend .titulo_bienvenida ; 
