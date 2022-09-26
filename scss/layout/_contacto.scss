@@ -1,7 +1,8 @@
 .bmenu {
     height: 100vh;
-    display: grid;
+    
     background-image: url("../imagenes/fc.png");
+    overflow: hidden;
     article {
         .titulo {
          @extend .titulo_bienvenida ; 

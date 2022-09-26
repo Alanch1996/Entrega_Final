@@ -1,5 +1,13 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Ubuntu:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa";
+  font-family: "Ubuntu", sans-serif;
+}
+
 .card--fondo {
   background-color: lightblue;
 }
@@ -12,17 +20,10 @@
   background-color: #040529;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Comfortaa";
-  font-family: "Ubuntu", sans-serif;
-}
-
 .bindex {
   background-image: url("../imagenes/fondo de mi proyecto.webp");
   background-size: cover;
+  overflow: hidden;
 }
 
 .titulo_bienvenida, .bmenu article .parrafo, .bmenu article .titulo {
@@ -43,12 +44,12 @@
   background-image: url("../imagenes/fondo de mi proyecto.webp");
   background-size: cover;
   height: 100vh;
-  display: grid;
+  overflow: hidden;
 }
 
 .titulo_ellas {
   font-size: 4rem;
-  font-family: "Comfortaa";
+  font-family: "Ubuntu", sans-serif;
   width: 100%;
   transition: 1s;
   transition-property: all;
@@ -92,7 +93,7 @@
 .bnosotros {
   background-color: bisque;
   height: 100vh;
-  display: grid;
+  overflow: hidden;
 }
 .bnosotros .texto_historia {
   font-size: 1.3rem;
@@ -110,8 +111,8 @@
 
 .bmenu {
   height: 100vh;
-  display: grid;
   background-image: url("../imagenes/fc.png");
+  overflow: hidden;
 }
 .bmenu .parrafo:hover {
   background-color: beige;
@@ -141,6 +142,7 @@ footer {
   margin-top: 2rem;
   width: 100%;
   height: auto;
+  overflow: hidden;
 }
 footer .fa-instagram {
   font-size: 2rem;
@@ -177,10 +179,5 @@ footer .fa-facebook:hover {
   }
   footer {
     padding-top: 3rem;
-  }
-}
-@media (max-width: 576px) {
-  .titulo_bienvenida, .bmenu article .titulo, .bmenu article .parrafo {
-    text-align: center;
   }
 }/*# sourceMappingURL=estilos.css.map */

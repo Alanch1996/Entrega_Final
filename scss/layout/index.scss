@@ -1,7 +1,8 @@
 .bindex {
     background-image: url("../imagenes/fondo\ de\ mi\ proyecto.webp");
     background-size: cover ;
-    }
+    overflow: hidden;
+  }
     .titulo_bienvenida {
         font-size: 3rem;
         font-family: $fontComfortaa;
