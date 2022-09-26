@@ -195,7 +195,10 @@ footer .fa-facebook:hover {
 
 @media (max-width: 576px) {
   .bniños {
-    background: rgb(99, 99, 223);
+    background: lightblue;
+  }
+  .titulo_niños {
+    background: white;
   }
 }
 @media (min-width: 768px) {

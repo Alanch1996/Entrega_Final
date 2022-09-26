@@ -1,19 +1,19 @@
 .bindex {
-    background-image: url("../imagenes/fondo\ de\ mi\ proyecto.webp");
-    background-size: cover ;
-    
- }
-    .titulo_bienvenida {
-        font-size: 3rem;
-        font-family: $fontComfortaa;
-        width: 100%;
-        transition: 1s;
-        transition-property: all;
-        transition-timing-function: ease-in-out;  
-        color: map-get($mapa, $key:fondo3 );
-     }  
-     .titulo_bienvenida:hover{
-        background-color: white ;
-     }
-    
-    
+   background-image: url("../imagenes/fondo\ de\ mi\ proyecto.webp");
+   background-size: cover;
+
+}
+
+.titulo_bienvenida {
+   font-size: 3rem;
+   font-family: $fontComfortaa;
+   width: 100%;
+   transition: 1s;
+   transition-property: all;
+   transition-timing-function: ease-in-out;
+   color: map-get($mapa, $key: fondo3);
+}
+
+.titulo_bienvenida:hover {
+   background-color: white;
+}
