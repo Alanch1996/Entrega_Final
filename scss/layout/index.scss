@@ -1,8 +1,9 @@
 .bindex {
-   background-image: url("../imagenes/fondo\ de\ mi\ proyecto.webp");
-   background-size: cover;
-
-}
+  background-color: lightgray;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 3rem;
+}     
 
 .titulo_bienvenida {
    font-size: 3rem;

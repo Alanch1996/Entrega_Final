@@ -1,4 +1,11 @@
-
+@media (min-width: 768px){
+    .bindex {
+        background: lightgray;
+    }
+    img{
+        padding: 1rem;
+    }
+}
 @media (min-width: 768px) {
     .titulo_ellas {
         background: none;
@@ -7,8 +14,9 @@
 }
 @media (max-width:576px) {
     .bindex {
-        background: lightblue;
+        background: lightgray;
     }
+   
 
 }
 
