@@ -1,26 +1,24 @@
-@media (max-width:576px) {
+@media (min-width: 575.98px) {
+ 
+    .bmenu {
+    
+      overflow: auto;
+    }
+   
+    }
+    @media (max-width:576px) {
 
-  .tituloform {
-    text-align: center;
-    padding-top: 15px;
-  }
-
-  .bmenu {
-    background: lightblue;
-  }
-
-  footer {
-    padding-top: 3rem;
-  }
-
-}
-@media (max-width:575.98px) {
-
-  .bindex{
-    width: 100%;
-  }
-  .pie{
-    width: 100%;
-  }
-  
-}
+      .tituloform {
+        text-align: center;
+        padding-top: 15px;
+      }
+    
+      .bmenu {
+        background: lightblue;
+      }
+    
+      footer {
+        padding-top: 3rem;
+      }
+    
+    }

@@ -9,7 +9,7 @@
 }
 
 .card--fondo {
-  background-color: rgb(255, 248, 248);
+  background-color: red;
 }
 
 .card--fondo2 {
@@ -78,7 +78,7 @@ img {
   transition: 1s;
   transition-property: all;
   transition-timing-function: ease-in-out;
-  color: rgb(255, 248, 248);
+  color: red;
 }
 
 .titulo_niños:hover {
@@ -89,9 +89,6 @@ img {
   background-color: bisque;
   min-height: 100vh;
 }
-.bnosotros .texto_historia {
-  font-size: 1rem;
-}
 .bnosotros .texto_historia:hover {
   width: 100%;
   background-color: white;
@@ -101,10 +98,6 @@ img {
 }
 .bnosotros p:hover {
   background-color: beige;
-}
-.bnosotros footer {
-  width: 100%;
-  height: auto;
 }
 
 .bmenu {
@@ -164,6 +157,11 @@ footer .fa-facebook:hover {
   color: blue;
 }
 
+@media (min-width: 575.98px) {
+  .bmenu {
+    overflow: auto;
+  }
+}
 @media (max-width: 576px) {
   .tituloform {
     text-align: center;
@@ -175,5 +173,4 @@ footer .fa-facebook:hover {
   footer {
     padding-top: 3rem;
   }
-
 }/*# sourceMappingURL=estilos.css.map */
