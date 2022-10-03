@@ -9,7 +9,7 @@
 }
 
 .card--fondo {
-  background-color: lightblue;
+  background-color: rgb(255, 248, 248);
 }
 
 .card--fondo2 {
@@ -21,8 +21,12 @@
 }
 
 .bindex {
-  background-color: lightgray;
+  background-color: rgb(235, 227, 227);
   min-height: 100vh;
+}
+
+img {
+  border-radius: 8px;
 }
 
 .titulo_bienvenida, .bmenu article .parrafo, .bmenu article .titulo {
@@ -39,14 +43,18 @@
   background-color: white;
 }
 
+.img {
+  border-radius: 8px;
+}
+
 .bniñas {
-  background-color: lightgray;
+  background-color: rgb(235, 227, 227);
   min-height: 100vh;
 }
 
 .titulo_ellas {
   font-size: 4rem;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu";
   width: 100%;
   transition: 1s;
   transition-property: all;
@@ -59,7 +67,7 @@
 }
 
 .bniños {
-  background-color: lightgray;
+  background-color: rgb(235, 227, 227);
   min-height: 100vh;
 }
 
@@ -70,11 +78,11 @@
   transition: 1s;
   transition-property: all;
   transition-timing-function: ease-in-out;
-  color: lightblue;
+  color: rgb(255, 248, 248);
 }
 
 .titulo_niños:hover {
-  background-color: lightgray;
+  background-color: white;
 }
 
 .bnosotros {
@@ -82,7 +90,7 @@
   min-height: 100vh;
 }
 .bnosotros .texto_historia {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .bnosotros .texto_historia:hover {
   width: 100%;
@@ -93,6 +101,10 @@
 }
 .bnosotros p:hover {
   background-color: beige;
+}
+.bnosotros footer {
+  width: 100%;
+  height: auto;
 }
 
 .bmenu {
@@ -162,40 +174,5 @@ footer .fa-facebook:hover {
   }
   footer {
     padding-top: 3rem;
-  }
-}
-@media (min-width: 768px) {
-  .bindex {
-    background: lightgray;
-  }
-  img {
-    padding: 1rem;
-  }
-}
-@media (min-width: 768px) {
-  .titulo_ellas {
-    background: none;
-  }
-}
-@media (max-width: 576px) {
-  .bindex {
-    background: lightgray;
-  }
-}
-@media (max-width: 576px) {
-  .bniñas {
-    background: pink;
-  }
-}
-.titulo_ellas {
-  background: white;
-}
-
-@media (max-width: 576px) {
-  .bniños {
-    background: lightblue;
-  }
-  .titulo_niños {
-    background: white;
   }
 }/*# sourceMappingURL=estilos.css.map */
