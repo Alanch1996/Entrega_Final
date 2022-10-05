@@ -4,8 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Comfortaa";
-  font-family: "Ubuntu", sans-serif;
 }
 
 .card--fondo {
@@ -21,12 +19,7 @@
 }
 
 .bindex {
-  background-color: rgb(235, 227, 227);
-  min-height: 100vh;
-}
-
-img {
-  border-radius: 8px;
+  background-color: lightgrey;
 }
 
 .titulo_bienvenida, .bmenu article .parrafo, .bmenu article .titulo {
@@ -43,8 +36,12 @@ img {
   background-color: white;
 }
 
-.img {
-  border-radius: 8px;
+html {
+  height: 100vh;
+}
+
+.carousel-iner {
+  max-height: 35rem;
 }
 
 .bniñas {
@@ -102,7 +99,6 @@ img {
 
 .bmenu {
   background-color: lightblue;
-  min-height: 100vh;
 }
 .bmenu .parrafo:hover {
   background-color: beige;
@@ -131,6 +127,7 @@ footer {
   padding-top: 1rem;
   margin-top: 2rem;
   width: 100%;
+  bottom: 50;
 }
 footer .fa-instagram {
   font-size: 2rem;
@@ -157,30 +154,6 @@ footer .fa-facebook:hover {
   color: blue;
 }
 
-@media (max-width: 998px) {
-  .bnosotros {
-    display: flex;
-    min-height: 100vh;
-    flex-wrap: wrap;
-  }
-  footer {
-    align-self: flex-end;
-    justify-content: center;
-    height: 50px;
-  }
-}
-@media (max-width: 1200px) {
-  .bnosotros {
-    display: flex;
-    min-height: 100vh;
-    flex-wrap: wrap;
-  }
-  footer {
-    align-self: flex-end;
-    justify-content: center;
-    height: 50px;
-  }
-}
 @media (max-width: 576px) {
   .tituloform {
     text-align: center;
@@ -191,5 +164,43 @@ footer .fa-facebook:hover {
   }
   footer {
     padding-top: 3rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .logo-media {
+    font-size: 35px;
+  }
+  .alto-icono {
+    height: 15vh;
+    width: 15vh;
+  }
+}
+@media (max-width: 767.98px) {
+  .logo-media {
+    font-size: 35px;
+  }
+}
+@media (max-width: 991.98px) {
+  .logo-media {
+    font-size: 35px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .alto-icono {
+    height: 30vh;
+    width: 30vw;
+  }
+  .logo-media {
+    font-size: 35px;
+  }
+}
+@media (max-width: 1399.98px) {
+  .logo-media {
+    font-size: 40px;
+  }
+}
+@media (max-width: 2000px) {
+  .logo-media {
+    font-size: 40px;
   }
 }/*# sourceMappingURL=estilos.css.map */

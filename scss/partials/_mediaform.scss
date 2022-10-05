@@ -1,25 +1,5 @@
-@media (max-width: 998px) {
- 
-   .bnosotros{ display: flex;
-  min-height: 100vh;
-flex-wrap: wrap;}
-footer{
-  align-self: flex-end;
-  justify-content: center;
-  height: 50px;
-}
- }
-@media (max-width: 1200px) {
- 
-  .bnosotros{ display: flex;
- min-height: 100vh;
-flex-wrap: wrap;}
-footer{
- align-self: flex-end;
- justify-content: center;
- height: 50px;
-}
-    }
+
+    
     @media (max-width:576px) {
 
       .tituloform {
@@ -36,3 +16,4 @@ footer{
       }
     
     }
+  
