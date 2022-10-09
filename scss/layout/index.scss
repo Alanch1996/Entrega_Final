@@ -1,6 +1,12 @@
+
 .bindex{
-background-color: lightgrey ;
-}
+    background-color: lightgrey ;
+ width: 100%;
+ min-height: 100%;
+   
+ font-size: 18px;
+
+ 
 .titulo_bienvenida {
    font-size: 3rem;
    font-family: $fontComfortaa;
@@ -14,3 +20,6 @@ background-color: lightgrey ;
 .titulo_bienvenida:hover {
    background-color: white;
 } 
+    }
+
+    

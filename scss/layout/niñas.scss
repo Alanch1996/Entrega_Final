@@ -1,19 +1,19 @@
 .bniñas{
-  background-color: rgb(235, 227, 227);
-  min-height: 100vh;
-  
-  }
-  
-  .titulo_ellas {
-    font-size: 4rem;
-    font-family: $fontUbuntu;
+    background-color: rgb(235, 227, 227);
     width: 100%;
-    transition: 1s;
-    transition-property: all;
-    transition-timing-function: ease-in-out;
-    color: map-get($mapa, $key: fondo2);
-  }
-  
-  .titulo_ellas:hover {
-    background-color: white;
-  }
+    font-size: 18px;
+    }
+    
+    .titulo_ellas {
+      font-size: 4rem;
+      font-family: $fontUbuntu;
+      width: 100%;
+      transition: 1s;
+      transition-property: all;
+      transition-timing-function: ease-in-out;
+      color: map-get($mapa, $key: fondo2);
+    }
+    
+    .titulo_ellas:hover {
+      background-color: white;
+    }

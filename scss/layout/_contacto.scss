@@ -1,9 +1,8 @@
 .bmenu {
     background-color: lightblue;
-
-
- 
-
+    min-height: 100vh;
+    overflow-x: hidden;
+  
     article {
         .titulo {
          @extend .titulo_bienvenida ; 
@@ -16,26 +15,5 @@
     .parrafo:hover{
         background-color: beige;
     }
-     .acordion {
-        .info { 
-            text-align: center;
-        }
-        
-     }
-     form  {
-        background-color: white;
-        padding: 40px;
-        padding-bottom: 1rem;
-        box-shadow: 0 0 6px 0 rgb(055,055 ,055, 0.8);
-        border-radius: 10px;
-     
-        .form{
-            width: 100%;
-            margin: auto;
-            position: relative;
-        } 
-        .formc {
-            position: relative;
-           }
-      }
+
      }

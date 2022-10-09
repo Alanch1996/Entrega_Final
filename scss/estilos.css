@@ -20,9 +20,11 @@
 
 .bindex {
   background-color: lightgrey;
+  width: 100%;
+  min-height: 100%;
+  font-size: 18px;
 }
-
-.titulo_bienvenida, .bmenu article .parrafo, .bmenu article .titulo {
+.bindex .titulo_bienvenida, .bindex .bmenu article .parrafo, .bmenu article .bindex .parrafo, .bindex .bmenu article .titulo, .bmenu article .bindex .titulo {
   font-size: 3rem;
   font-family: "Comfortaa";
   width: 100%;
@@ -31,22 +33,32 @@
   transition-timing-function: ease-in-out;
   color: #040529;
 }
-
-.titulo_bienvenida:hover, .bmenu article .parrafo:hover, .bmenu article .titulo:hover {
+.bindex .titulo_bienvenida:hover, .bindex .bmenu article .parrafo:hover, .bmenu article .bindex .parrafo:hover, .bindex .bmenu article .titulo:hover, .bmenu article .bindex .titulo:hover {
   background-color: white;
 }
 
+img {
+  width: 20vw;
+  height: 20vh;
+}
+
 html {
+  height: 100%;
+}
+
+body {
+  width: 100vw;
   height: 100vh;
 }
 
-.carousel-iner {
-  max-height: 35rem;
+main {
+  min-height: 100vh;
 }
 
 .bniñas {
   background-color: rgb(235, 227, 227);
-  min-height: 100vh;
+  width: 100%;
+  font-size: 18px;
 }
 
 .titulo_ellas {
@@ -65,7 +77,9 @@ html {
 
 .bniños {
   background-color: rgb(235, 227, 227);
+  width: 100%;
   min-height: 100vh;
+  font-size: 18px;
 }
 
 .titulo_niños {
@@ -84,7 +98,9 @@ html {
 
 .bnosotros {
   background-color: bisque;
+  width: 100%;
   min-height: 100vh;
+  font-size: 18px;
 }
 .bnosotros .texto_historia:hover {
   width: 100%;
@@ -99,108 +115,77 @@ html {
 
 .bmenu {
   background-color: lightblue;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 .bmenu .parrafo:hover {
   background-color: beige;
 }
-.bmenu .acordion .info {
-  text-align: center;
-}
-.bmenu form {
-  background-color: white;
-  padding: 40px;
-  padding-bottom: 1rem;
-  box-shadow: 0 0 6px 0 rgba(55, 55, 55, 0.8);
-  border-radius: 10px;
-}
-.bmenu form .form {
-  width: 100%;
-  margin: auto;
-  position: relative;
-}
-.bmenu form .formc {
-  position: relative;
-}
 
 footer {
-  background-color: white;
-  padding-top: 1rem;
-  margin-top: 2rem;
+  background-color: rgb(230, 217, 217);
   width: 100%;
-  bottom: 50;
-}
-footer .fa-instagram {
-  font-size: 2rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-footer .fa-instagram:hover {
-  color: rgb(160, 81, 94);
-}
-footer .fa-whatsapp {
-  font-size: 2rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-footer .fa-whatsapp:hover {
-  color: green;
-}
-footer .fa-facebook {
-  font-size: 2rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-footer .fa-facebook:hover {
-  color: blue;
+  height: 100px;
+  margin-top: 10px;
 }
 
-@media (max-width: 576px) {
-  .tituloform {
-    text-align: center;
-    padding-top: 15px;
-  }
-  .bmenu {
-    background: lightblue;
-  }
-  footer {
-    padding-top: 3rem;
-  }
-}
 @media (max-width: 575.98px) {
-  .logo-media {
-    font-size: 35px;
+  img {
+    width: 20vw;
+    height: 20vh;
   }
-  .alto-icono {
-    height: 15vh;
-    width: 15vh;
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
   }
 }
 @media (max-width: 767.98px) {
-  .logo-media {
-    font-size: 35px;
+  img {
+    width: 20vw;
+    height: 20vh;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
   }
 }
 @media (max-width: 991.98px) {
-  .logo-media {
-    font-size: 35px;
+  img {
+    width: 20vw;
+    height: 20vh;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 25px;
   }
 }
 @media (max-width: 1199.98px) {
-  .alto-icono {
-    height: 30vh;
+  img {
     width: 30vw;
+    height: 30vh;
   }
-  .logo-media {
-    font-size: 35px;
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 25px;
   }
 }
 @media (max-width: 1399.98px) {
-  .logo-media {
-    font-size: 40px;
+  img {
+    width: 20vw;
+    height: 20vh;
   }
-}
-@media (max-width: 2000px) {
-  .logo-media {
-    font-size: 40px;
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 25px;
   }
 }/*# sourceMappingURL=estilos.css.map */

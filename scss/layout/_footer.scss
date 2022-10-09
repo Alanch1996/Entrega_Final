@@ -1,20 +1,9 @@
 footer{
-    background-color: white;
-    padding-top: 1rem;
-    margin-top: 2rem;
+    background-color: rgb(230, 217, 217);
     width: 100%;
-    bottom: 50;
+    height: 100px;
+    margin-top: 10px;
+    
     
    
-    .fa-instagram {
-        @include redes ($ig);
     }
-    .fa-whatsapp {
-        @include redes ($wsp);
-    }
-    .fa-facebook {
-        @include redes ($fb)  ; 
-      }
-
-}
-

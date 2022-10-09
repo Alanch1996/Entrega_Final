@@ -1,18 +1,19 @@
 .bnosotros {
-  background-color: bisque;
-  min-height: 100vh;
-
-  .texto_historia:hover {
-    width: 100%;
-    background-color: white;
-    transition: 1s;
-    transition-property: all;
-    transition-timing-function: ease-in-out;
+    background-color: bisque;
+     width: 100%;
+    min-height: 100vh;
+    font-size: 18px;
+    .texto_historia:hover {
+      width: 100%;
+      background-color: white;
+      transition: 1s;
+      transition-property: all;
+      transition-timing-function: ease-in-out;
+    }
+  
+    p:hover {
+      background-color: beige
+    }
+   
+  
   }
-
-  p:hover {
-    background-color: beige
-  }
- 
-
-}
