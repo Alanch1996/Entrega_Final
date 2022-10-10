@@ -1,19 +1,16 @@
 .bmenu {
     background-color: lightblue;
     min-height: 100vh;
-    overflow-x: hidden;
+  overflow-x: hidden;
+  width: 100%;
+  font-size: 18px;
   
-    article {
-        .titulo {
-         @extend .titulo_bienvenida ; 
-        }
-      
-        .parrafo{
-            @extend .titulo_bienvenida;
-        }
-    }
-    .parrafo:hover{
-        background-color: beige;
-    }
-
+  
+.form{
+    background-color: white;
+  padding: 40px;
+  box-shadow: 0 0 6px 0 rgba(55, 55, 55, 0.8);
+  border-radius: 10px
+}
+    
      }

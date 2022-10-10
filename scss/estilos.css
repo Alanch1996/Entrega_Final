@@ -22,9 +22,10 @@
   background-color: lightgrey;
   width: 100%;
   min-height: 100%;
+  overflow-x: hidden;
   font-size: 18px;
 }
-.bindex .titulo_bienvenida, .bindex .bmenu article .parrafo, .bmenu article .bindex .parrafo, .bindex .bmenu article .titulo, .bmenu article .bindex .titulo {
+.bindex .titulo_bienvenida {
   font-size: 3rem;
   font-family: "Comfortaa";
   width: 100%;
@@ -33,13 +34,12 @@
   transition-timing-function: ease-in-out;
   color: #040529;
 }
-.bindex .titulo_bienvenida:hover, .bindex .bmenu article .parrafo:hover, .bmenu article .bindex .parrafo:hover, .bindex .bmenu article .titulo:hover, .bmenu article .bindex .titulo:hover {
+.bindex .titulo_bienvenida:hover {
   background-color: white;
 }
 
 img {
-  width: 20vw;
-  height: 20vh;
+  width: 100%;
 }
 
 html {
@@ -80,6 +80,7 @@ main {
   width: 100%;
   min-height: 100vh;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 .titulo_niños {
@@ -117,9 +118,14 @@ main {
   background-color: lightblue;
   min-height: 100vh;
   overflow-x: hidden;
+  width: 100%;
+  font-size: 18px;
 }
-.bmenu .parrafo:hover {
-  background-color: beige;
+.bmenu .form {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 0 6px 0 rgba(55, 55, 55, 0.8);
+  border-radius: 10px;
 }
 
 footer {
@@ -127,24 +133,13 @@ footer {
   width: 100%;
   height: 100px;
   margin-top: 10px;
+  bottom: 0;
 }
 
-@media (max-width: 575.98px) {
-  img {
-    width: 20vw;
-    height: 20vh;
-  }
-  h1 {
-    font-size: 25px;
-  }
-  p {
-    font-size: 20px;
-  }
-}
 @media (max-width: 767.98px) {
-  img {
-    width: 20vw;
-    height: 20vh;
+  .img {
+    width: 40vw;
+    height: 35vh;
   }
   h1 {
     font-size: 25px;
@@ -155,8 +150,8 @@ footer {
 }
 @media (max-width: 991.98px) {
   img {
-    width: 20vw;
-    height: 20vh;
+    width: 40vw;
+    height: 35vh;
   }
   h1 {
     font-size: 30px;
@@ -167,8 +162,8 @@ footer {
 }
 @media (max-width: 1199.98px) {
   img {
-    width: 30vw;
-    height: 30vh;
+    width: 40vw;
+    height: 35vh;
   }
   h1 {
     font-size: 30px;
@@ -179,13 +174,25 @@ footer {
 }
 @media (max-width: 1399.98px) {
   img {
-    width: 20vw;
-    height: 20vh;
+    width: 25vw;
+    height: 25vh;
   }
   h1 {
     font-size: 30px;
   }
   p {
     font-size: 25px;
+  }
+}
+@media (max-width: 575.98px) {
+  .img {
+    width: 40vw;
+    height: 35vh;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=estilos.css.map */

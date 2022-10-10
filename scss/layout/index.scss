@@ -3,11 +3,13 @@
     background-color: lightgrey ;
  width: 100%;
  min-height: 100%;
-   
+   overflow-x: hidden;
  font-size: 18px;
+ 
 
  
 .titulo_bienvenida {
+  
    font-size: 3rem;
    font-family: $fontComfortaa;
    width: 100%;
