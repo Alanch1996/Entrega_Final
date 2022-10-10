@@ -1,25 +1,26 @@
-.bniños{
+.bniños {
     background-color: rgb(235, 227, 227);
     width: 100%;
     min-height: 100vh;
     font-size: 18px;
-  
-    }
-        .titulo_niños {
-         font-size: 4rem;
-         font-family: $fontComfortaa;
-         width: 100%;
-         transition: 1s;
-         transition-property: all;
-         transition-timing-function: ease-in-out;  
-         color: map-get($mapa, $key:fondo );
-        
-        }
-        
-     
-        
-        .titulo_niños:hover{
-        
-        background-color: white;
-        
-        }
+
+}
+
+.titulo_niños {
+    font-size: 4rem;
+    font-family: $fontComfortaa;
+    width: 100%;
+    transition: 1s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    color: map-get($mapa, $key: fondo);
+
+}
+
+
+
+.titulo_niños:hover {
+
+    background-color: white;
+
+}

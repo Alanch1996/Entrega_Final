@@ -1,28 +1,25 @@
-
-.bindex{
-    background-color: lightgrey ;
- width: 100%;
- min-height: 100%;
+.bindex {
+   background-color: lightgrey;
+   width: 100%;
+   min-height: 100%;
    overflow-x: hidden;
    overflow-y: hidden;
- font-size: 18px;
- 
+   font-size: 18px;
 
- 
-.titulo_bienvenida {
-  
-   font-size: 3rem;
-   font-family: $fontComfortaa;
-   width: 100%;
-   transition: 1s;
-   transition-property: all;
-   transition-timing-function: ease-in-out;
-   color: map-get($mapa, $key: fondo3);
+
+
+   .titulo_bienvenida {
+
+      font-size: 3rem;
+      font-family: $fontComfortaa;
+      width: 100%;
+      transition: 1s;
+      transition-property: all;
+      transition-timing-function: ease-in-out;
+      color: map-get($mapa, $key: fondo3);
+   }
+
+   .titulo_bienvenida:hover {
+      background-color: white;
+   }
 }
-
-.titulo_bienvenida:hover {
-   background-color: white;
-} 
-    }
-
-    
